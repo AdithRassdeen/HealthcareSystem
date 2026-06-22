@@ -15,8 +15,7 @@ public abstract class  Person {
     public String getPhone() { return phone; }
     public void setPhone(String phone) { this.phone = phone; }
     
-    public void printDetails() {
-    System.out.println("Name: " + name + ", Phone: " + phone);
-}
+    public void printDetails();
+
 }
 
