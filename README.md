@@ -29,6 +29,7 @@ A desktop management application developed as a 2nd Year Computer Studies progra
 * `Person.java`: An abstract superclass that implements core OOP principles like Abstraction and Encapsulation.
 * `Patient.java`: A subclass that inherits from `Person.java` to handle patient-specific attributes.
 * `Doctor.java`: A subclass that ensures clean data separation and maps doctor scheduling constraints.
+* `Appointment.java`: A model class that manages the core relationship between a Doctor and a Patient for scheduling appointments, acting as the bridge entity.
 * `LoginFrame.java` & `.form`: The initial graphical interface for administrative authentication.
 * `MainDashboard.java` & `.form`: The central hub holding the tabbed management panel.
 
